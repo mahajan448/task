@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="./list/css/to.css" />
+	</head>
+	<body>
+		<div id="myDIV" class="header">
+			<h2>To Do List</h2>
+			<input type="text" id="newTaskName" placeholder="Title..." />
+			<span onclick="newElement()" class="addBtn" id="createTask">Add</span>
+			<input class="hide" id="editableTaskId" value="" />
+			<span onclick="updateTaskName()" class="upBtn hide" id="updateTask">Update</span>
+		</div>
+		<table id="taskTable" border="1">
+			<tr>
+				<th>Task Name</th>
+				<th colspan="2">Actions</th>
+			</tr>
+			<!-- <tr>
+        <td>first</td>
+       <td><button >Delete</button></td> 
+       <td><button>Edit</button></td>
+    </tr>
+     <tr>
+        <td>second</td>
+        <td><button>Delete</button></td>
+        <td><button>Edit</button></td>
+    </tr>
+    <tr>
+        <td>third</td>
+        <td><button>Delete</button></td>
+        <td><button>Edit</button></td>
+    </tr>  -->
+		</table>
+
+		<script src="./list/js/to.js"></script>
+	</body>
+</html>
